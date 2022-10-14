@@ -1,0 +1,41 @@
+input {
+    opacity: 0;
+}
+
+label {
+    align-self: start;
+}
+
+.tab {
+    padding: 6px 28px 6px 6px;
+    border-left: solid;
+    border-bottom: solid;
+    border-color: black;
+
+    width: 100%;
+}
+
+.tab input:checked {
+    background-color: black;
+    color:white;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: solid;
+    border-color: black;
+}
+
+.tabContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input:checked + p {
+    display: inline;
+}
+
+p {
+    padding: 6px; 
+}
